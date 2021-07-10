@@ -394,7 +394,7 @@ def stream_video_detection(width,height,N,M):
         if cortas >= M:
             mensaje.send_messages(frame, "Cortas "+str(time.asctime(time.localtime())))
             cortas = 0
-        if cortas >= M:
+        if blancas >= M:
             mensaje.send_messages(frame, "Blancas "+str(time.asctime(time.localtime())))
             blancas = 0
             

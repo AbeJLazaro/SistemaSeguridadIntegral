@@ -1,0 +1,3 @@
+classes= 80
+train  = /content/SistemaSeguridadIntegral/darknet/coco/trainvalno5k.txt
+names = coco.names

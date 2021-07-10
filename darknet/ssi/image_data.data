@@ -1,4 +1,4 @@
 classes = 2
 #train = /content/drive/My Drive/YOLO/darknet/data/CortasBlancas/train.txt
-names = /content/drive/My Drive/YOLOOtro/darknet/ssi/classes.names
+names = classes.names
 backup = backup

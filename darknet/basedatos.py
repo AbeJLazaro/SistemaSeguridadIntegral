@@ -2,7 +2,7 @@ def mostrar():
     with open("registros.csv","r") as f:
         datos = f.readlines()
 
-        template = "|{0:^15}|{1:^30}|{2:^20}|"
+        template = "|{0:^10}|{1:^28}|{2:^20}|"
         print(template.format("Objeto","Fecha","Precision"))
         for registro in datos:
             info = registro.split(",")

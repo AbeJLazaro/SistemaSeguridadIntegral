@@ -400,6 +400,7 @@ def stream_video_detection(width,height,N,M):
             
         # loop through detections and draw them on transparent overlay image
         for label, confidence, bbox in detections:
+            print(bbox)
             left, top, right, bottom = bbox2points(bbox)
             left, top, right, bottom = int(left * width_ratio), int(top * height_ratio), int(right * width_ratio), int(bottom * height_ratio)
             bbox_array = cv2.rectangle(bbox_array, (left, top), (right, bottom), class_colors[label], 2)
